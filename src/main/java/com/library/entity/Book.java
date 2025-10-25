@@ -37,7 +37,8 @@ public class Book {
     @Column(name = "published_year")
     private Integer publishedYear;
 
-    @Lob
+    // Text column instead of OID
+    @Column(columnDefinition = "text")
     private String description;
 
     @Column(name = "cover_url", length = 500)
