@@ -7,6 +7,7 @@ com/library/service/BookService.class
 com/library/repository/UserRepository.class
 com/library/dto/auth/LoginRequest.class
 com/library/repository/BookRepository.class
+com/library/ServerPortCustomizer.class
 com/library/entity/User$UserBuilder.class
 com/library/dto/book/BookCreateRequest.class
 com/library/dto/book/BookPageResponse.class
